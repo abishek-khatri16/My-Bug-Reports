@@ -1,8 +1,11 @@
 # OTP Verification Bypass via HTTP Method Manipulation
 
 **Severity:** Medium
+
 **Status:** Triggered (Appreciation letter received)
+
 **Program:** wscube****.com
+
 **Reporter:** Abishek Khatri
 
 ## Summary
