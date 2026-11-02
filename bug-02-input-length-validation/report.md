@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | 👤 **Reporter** | Abishek Khatri |
-| 🏢 **Program** | Private Program |
+| 🏢 **Program** | VDP Program |
 | 📅 **Date** | August 2026 |
 | 🎯 **Affected Feature** | Account Settings → Name Verification → Request Name Change |
 | 🔐 **Authentication** | Required (logged-in user) |
