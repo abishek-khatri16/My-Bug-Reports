@@ -1,27 +1,50 @@
-# My-Bug-Report
-Collection of web security vulnerabilities I found during bug bounty hunting, organized by status: accepted, duplicates, N/A and bounty paid.
+<h1 align="center">🛡️ My Bug Reports</h1>
 
+<p align="center">
+  Collection of web security vulnerabilities I found during bug bounty hunting and security research.
+</p>
 
-# My Bug Reports
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Web%20Application%20Security-blue?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/Platform-HackerOne-black?style=for-the-badge" alt="Platform">
+  <img src="https://img.shields.io/badge/Reports-2-brightgreen?style=for-the-badge" alt="Reports">
+  <img src="https://img.shields.io/badge/Status-Learning%20Every%20Day-orange?style=for-the-badge" alt="Status">
+</p>
 
-Collection of security vulnerabilities I found during bug bounty hunting and security research.
+---
 
-## About Me
-- **Name:** Abishek Khatri
-- **Platforms:** HackerOne (blue-lion)
-- **Focus:** Web application security
-- **Contact:** prabhakrishi.farm16@gmail.com
+## 👤 About Me
 
-## Folder Structure
+| | |
+|---|---|
+| 🧑‍💻 **Name** | Abishek Khatri |
+| 🎯 **Focus** | Web application security |
+| 🏁 **Platform** | HackerOne (blue-lion) |
+| 📧 **Contact** | prabhakrishi.farm16@gmail.com |
 
-| Folder | Meaning |
-|--------|---------|
-| `accepted/` | Valid bugs accepted by the program |
-| `bounty-triggered/` | Bugs where a bounty was paid |
-| `duplicates/` | Valid bugs but someone reported first |
-| `not-applicable/` | Closed as N/A or out of scope |
+---
 
+## 📚 Reports
 
+| # | Title | Severity | Status |
+|:-:|-------|:--------:|:------:|
+| 01 | [🔐 OTP Verification Bypass via HTTP Method Manipulation](bug-01-otp-bypass/report.md) | ![Medium](https://img.shields.io/badge/-Medium-orange) | ![Triggered](https://img.shields.io/badge/-Triggered-brightgreen) |
+| 02 | [⚠️ Missing Input Length Validation in Name Change Request](bug-02-input-length-validation/report.md) | ![Low](https://img.shields.io/badge/-Low-yellow) | ![Triaged](https://img.shields.io/badge/-Triaged-blue) |
 
-## Disclaimer
-All testing was done legally, only on programs that allow it and within their scope. Sensitive details (company names, tokens, personal data) have been removed or hidden where needed. This repository is for learning and portfolio purposes only.
+> More reports will be added soon. 🚀
+
+---
+
+## 📁 Repository Structure
+
+```
+My-Bug-Reports/
+├── README.md
+├── bug-otp-bypass/
+│   ├── report.md
+
+```
+
+Each bug has its own folder with a `report.md` that contains the summary, steps to reproduce, impact and remediation.
+
+---
