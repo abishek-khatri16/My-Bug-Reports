@@ -40,7 +40,7 @@
 ```
 My-Bug-Reports/
 ├── README.md
-├── bug-otp-bypass/
+├── bug/
 │   ├── report.md
 
 ```
